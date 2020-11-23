@@ -1,0 +1,136 @@
+body{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family:'Raleway', sans-serif;
+}
+header{
+    display: flex;
+    padding: 10px;
+}
+.logo{
+    float: left;
+    width: 60%;
+}
+.logo img{
+    width: 100px;
+}
+a{
+    text-decoration: none;
+}
+li{
+    font-weight: bolder;
+    list-style: none;
+    display: inline-block;
+    margin:0 20px ;
+}
+header a:hover{
+    color:#0065FC;
+}
+
+/* le conteneur  */
+#hebergements{
+    width: auto;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+/* element */
+.hebergements-marseille{
+   background-color: #F2F2F2;
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-around;
+   flex-direction: row;
+   border-radius: 10px;
+   margin:0 30px 0 30px;
+}
+.hebergements-marseille p{
+    width: 100%;
+   padding: 10px 10px;
+}
+.carte-herbegment{
+    height:200px ;
+    width: 250px;
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.carte-herbegment p,h5{
+    margin:0;
+    padding: 0;
+    color: black;
+}
+i{
+    color:#0065FC;
+}
+.populaires{
+   background-color: #F2F2F2;
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-wrap: nowrap;
+   justify-content: space-around;
+   flex-direction: column;
+   border-radius: 10px;
+ align-items: center;
+ 
+}
+.carte-populaire{
+    height:40% ;
+    width: 250px;
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom:20px;
+}
+img{
+    width: 100%;
+    height: 70%;
+    border-radius: 10px;
+}
+section{
+    width: auto;
+    height: auto;
+}
+#conteneur{
+    border: 3px solid black;
+    /* height: 1080px; */
+    width: 980px;
+    display: flex;
+    flex-wrap: wrap;
+   padding: 10px 10px;
+   justify-content: space-around;
+   flex-direction: row;
+}
+
+
+.element{
+    height:20% ;
+    width: 300px;
+    border: 3px solid black;
+    
+}
+.element:nth-child(1){
+    background-color: red;
+
+}
+.element:nth-child(2){
+    background-color: royalblue;
+}
+.element:nth-child(3){
+    background-color: saddlebrown;
+}
+.element:nth-child(4){
+    background-color: salmon;
+}
+.element:nth-child(5){
+    background-color: springgreen;
+}
+.element:nth-child(6){
+    background-color: chartreuse;
+}
