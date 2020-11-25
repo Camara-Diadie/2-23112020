@@ -3,6 +3,8 @@ body{
     padding: 0;
     margin: 0;
     font-family:'Raleway', sans-serif;
+    /* display: flex;
+    flex-direction: column; */
 }
 /* --------------------------------------------------------------------------- */
 header{
@@ -33,6 +35,9 @@ li{
 a{
     text-decoration: none;
     color: black;
+}
+a.inscription{
+    color:#0065FC ;
 }
 header a:hover{
     color:#0065FC;
@@ -98,13 +103,8 @@ header a:hover{
     border-radius: 30px 30px 30px  30px;
     margin: 0;
     padding: 0; 
-
 }
-.filtre  h3{
 
-
-
-}
 .filtre p{
     padding: 0 20px 0 20px;
     text-align: center;
@@ -114,10 +114,11 @@ header a:hover{
     width: 35px;
     border:#F2F2F2 solid 2px;
     border-radius: 50%;
-    background-color: #F2F2F2;
+    background-color:  #DEEBFF;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #0065FC ;
 
 }
 .filtre div:hover{
@@ -163,7 +164,7 @@ font-weight: bold;
     height:150px ;
     width: 250px;
     border: 5px solid white;
-    border-radius: 20px;
+    border-radius: 10px;
     background-color: white;
     margin: 0;
 }
@@ -173,9 +174,13 @@ font-weight: bold;
     padding: 0;
     color: black;
 }
-i{
-    color:#0065FC;
+
+img{
+    width: 100%;
+    height: 60%;
+    border-radius: 10px 10px 0 0;
 }
+/* --------------------------------------------------------------------------- */
 .populaires{
    background-color: #F2F2F2;
     height: 100%;
@@ -189,18 +194,48 @@ i{
  
 }
 .carte-populaire{
-    height:40% ;
-    width: 250px;
+    /* display: flex; */
+    /* height: 30% ; */
+    width: 90%;
     border: 5px solid white;
     border-radius: 10px;
     background-color: white;
     margin-bottom:20px;
+    /* flex-wrap: nowrap; */
+    /* display: flex; */
+
 }
-img{
+ .image-populaire{
+    float: left;
+    width: 40%;
+    height: 120px;
+
+}
+ .info-populaire{
+     
+    padding-right: 1rem;
+    float: right;
+    width: 50%;
+    height: 100%;
+}
+.carte-populaire img{
     width: 100%;
-    height: 60%;
-    border-radius: 20px 20px 0 0;
+    height: 100%;
+    border-radius:   10px 0 0 10px;
+    float: in;
 }
+.etoile-populaire{
+    align-content: flex-end;
+}
+
+.fas.fa-star{
+    color:#0065FC;
+}
+.fas.fa-star.gris{
+    color: #F2F2F2;
+   /* background-color: #F2F2F2; */
+}
+
 section{
     width: auto;
     height: auto;
@@ -241,4 +276,17 @@ section{
 }
 .element:nth-child(6){
     background-color: chartreuse;
+}
+footer{
+    margin-top: 20px;
+    background-color:#F2F2F2 ;
+    display: flex;
+    justify-content:flex-start ;
+}
+footer div{
+    padding:20px 250px 20px 20px;
+}
+footer h5, p{
+    padding-bottom: 10px;
+
 }
