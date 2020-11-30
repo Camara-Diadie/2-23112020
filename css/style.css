@@ -86,8 +86,10 @@ header a:hover{
     border-radius: 0 10px 10px 0;
 }
 .recherche .texte{
-    border-color: #F2F2F2;
+    /* border-color: #F2F2F2; */
     width: 200px;
+    border: 1px solid #F2F2F2;
+
 }
 /* ------------------------------------------------------------------------------ */
 .filtre{
@@ -105,7 +107,7 @@ header a:hover{
     align-items: center;
     width: auto;
     height: 35px;
-    border:#F2F2F2  3px solid ;
+    border:#F2F2F2  2px solid ;
     border-radius: 30px 30px 30px  30px;
     margin: 0;
     padding: 0; 
@@ -331,13 +333,13 @@ section{
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.281);
     border-radius: 10px;
 }
-.double  div:nth-child(1)
+.un div:nth-child(1)
 {
-    height: 40%;
+    height: 60%;
 }
-.double div:nth-child(2)
+.un div:nth-child(2)
 {
-    height: 50%;
+    height: 30%;
 }
 .double div img{
     height: 80%;
