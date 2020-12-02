@@ -430,26 +430,22 @@ footer p:hover{
         width: 30%;
         margin-left:20px;
     }
-li{
+    li{
     list-style: none;
     display: inline-block;
     margin:0 50px ;
-}
+    }
 
-
-.filtre{
-
-    width: 100%;
-
-}
-
+    .filtre{
+        width: 100%;
+    }
     #hebergements{
         width: 94%;
         height: 1200px;
         flex-direction: column;
         flex-wrap: nowrap;
-    }
 
+    }
 
     .hebergements-marseille{
         width: 100%;
@@ -480,38 +476,52 @@ li{
     .carte-populaire{
         width: 70%;
     }
-     .image-populaire{
+    .image-populaire{
         width: 50%;
         height: 150px;
     }
-     .info-populaire{
+    .info-populaire{
         width: 40%;
     }
-    
     #activites{
         width: 94%;
-        height: 500px;
-        padding:10px 0 10px 0;
-        margin: 30px 0 0 30px;
+        height: 950px;
+        display: flex;
+        justify-content: space-between;
+        margin: 10px 0 0 30px;
+
     }
     .activite-marseille h2{
         width: 100%;   
-    
     }
     .activite-marseille{
-        height: 500px;
-        width: 100%;
+        height: 1000px;
+        width: 1300px;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+        justify-content: space-between;
+        flex-direction: row;
         margin:0 10px 0 10px;
+    
     }
-
     .carte-activites{
         height: 400px;
-        width: 200px;
+        width: 300px;
+        border-radius: 10px;
+        box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.281);
     }
-    .double {
+
+    div.double {
+        height: 400px;
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
         box-shadow: none;
     }
     footer div{
-        padding:20px 100px 20px 20px;
+        padding:20px 60px 20px 20px;
     }
 }
+@media all and (max-width: 768px)  
