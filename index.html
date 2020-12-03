@@ -13,17 +13,19 @@
 <body>
     <!-- partie header qui comporte le menu de navigation , recherche(filtre) -->
     <header>
-        <div class="logo">
-            <img src="/images/logo/Reservia@3x.png" alt="">
+        <div class="menu">
+
+                <img src="/images/logo/Reservia@3x.png" alt="">
+
+            <!-- menu de navigation et partie inscription -->
+            <nav>
+                <ul>
+                    <li><a href="#hebergements">Hébergement</a></li>
+                    <li><a href="#activites">Activités</a></li>
+                    <li><a href="#" class="inscription">s'inscrire</a></li>
+                </ul>
+            </nav>
         </div>
-        <!-- menu de navigation et partie inscription -->
-        <nav>
-            <ul>
-                <li><a href="#hebergements">Hébergement</a></li>
-                <li><a href="#activites">Activités</a></li>
-                <li><a href="#" class="inscription">s'inscrire</a></li>
-            </ul>
-        </nav>
     </header>
 
     <section id="recherche">
@@ -32,7 +34,7 @@
         <div class="recherche">
             <i class="fas fa-map-marker-alt"></i>
             <input type="text" class="texte">
-            <input type="button" value="RECHERCHE" class="button">
+            <input type="button" value="RECHERCHE" class="button"><i class="fas fa-search"></i>
         </div>
         <div class="filtre">
             <h3>Filtres</h3>
