@@ -1,0 +1,267 @@
+@media screen and (min-width: 320px) and (max-width: 424px){
+    body{
+        height: 100%;
+        padding: 0;
+        margin:0;
+    }
+    header div.menu{
+        display: none;
+    }
+
+    header .menu-mobile{
+        display: flex;
+    }
+    .menu-partie1 , .menu-partie2 {
+        display: flex;
+        background-color: rosybrown;
+    }
+    .menu-mobile nav li{
+        list-style: none;
+        display: inline-block;
+        margin:0 20px ;
+    }
+    .menu-partie1 li{
+        width:100px;
+        display: inline-block;
+        text-align: center;
+    }
+    .menu-partie2 li{
+        width:100px;
+        display: inline-block;
+        text-align: center;
+    }
+
+
+    #recherche {
+        height:auto;
+        width: 100%;
+        margin:0;
+        padding: 0;
+     }
+     .recherche .button{
+         display: none;
+     }
+     .recherche{
+        display: flex;
+         height: 40px;
+         width: 100%;
+     }
+     .recherche i.fa-search{
+        color: #F2F2F2;
+        background-color: #0065FC;
+        width: 40px;
+        height: 40px;
+        border-radius:0 10px 10px 0 ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .filtre h3{
+        width: 100%;
+    }
+    .info {
+        margin: 10px;
+        display: flex;
+        height: 30px;
+        width: 90%;
+        }
+    
+    .filtre{
+        padding-top: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items : flex-start;
+        height:auto;
+        width: 60%;
+        margin: 0;
+        padding: 10px;
+    
+    }
+    .filtre div{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: nowrap;
+        height: 35px;
+        border:#F2F2F2  2px solid ;
+        border-radius: 30px 30px 30px  30px;
+        margin: 10px 0 0 0; 
+        padding: 0; 
+    }
+    
+    .filtre p{
+        padding: 0 20px 0 20px;
+        text-align: center;
+    }
+    .filtre .fas {
+        height: 35px;
+        width: 35px;
+        border:#F2F2F2 solid 2px;
+        border-radius: 50%;
+        background-color:  #DEEBFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #0065FC ;
+    
+    }
+    .filtre div:hover{
+        color: #0065FC;
+        background-color:#F2F2F2 ;
+        font-weight: bold;
+    
+    }
+    .fas.fa-info {
+        height: 20px;
+        width: 20px;
+        border:#F2F2F2 solid 2px;
+        border-radius: 50%;
+        background-color:  #DEEBFF;
+        justify-content: center;
+        align-items: center;
+        color: #0065FC ;
+        text-align: center;
+    }
+    #hebergements{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+    }
+    .hebergements-marseille{
+        width: 100%;
+        padding-bottom: 20px;
+        margin: 0px 0px 0 0px;
+    }
+    .carte-herbegment{
+        height:150px ;
+        width: 90%;
+        border: 3px solid white;
+        border-radius: 10px;
+        background-color: white;
+        margin: 10px;
+    }
+    .populaires{
+        height:auto;
+        width: 100%;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin: 0;
+        border-radius: 0;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+    .titre-bloc{
+        width: 100%;
+        margin-left: 10px;
+    }
+    .carte-populaire{
+        width: 90%;
+        height: 130px;
+        border: 2px solid white;
+        border-radius: 10px;
+        background-color: white;
+        margin-bottom:20px;
+    }
+    .image-populaire{
+        width: 40%;
+        height: 100%;
+    }
+    .info-populaire{
+        width: 50%;
+
+    }
+    .etoile-populaire{
+        align-content: flex-end;
+        padding-top: 10px;
+    }
+    #activites{
+        padding-top: 20px;
+        width: auto;
+        height:auto;
+        margin: 0;
+        margin: 0;
+    }
+    .activite-marseille{
+        padding: 10px;
+        display: grid;
+        grid-template-columns: repeat(1,100%) ;
+        grid-template-rows: repeat(6, 180px) ;
+        grid-row-gap: 2rem;
+        grid-column-gap: 2rem;
+    }
+    .carte-activites{
+        width:auto;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 10px 10px 0  rgba(0, 0, 0, 0.157);
+    }
+    div.grid-1{
+        grid-column-start: 1;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    div.grid-2{
+        height: 100%;
+        grid-column-start:1;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    div.grid-3{ 
+        height: 100%;
+        grid-column-start: 1;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        margin-top:0 ;
+    }
+    div.grid-4{ 
+        grid-column-start: 1;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+    div.grid-5{
+        height: auto;
+        grid-column-start: 1;
+        grid-row-start: 5;
+        grid-row-end: 6;
+    }
+    div.grid-6{
+        height: auto;
+        grid-column-start: 1;
+        grid-row-start: 6;
+        grid-row-end: 7;
+    }
+    .carte-activites img{
+        height: 75%;
+    }
+    .carte-activites h5{
+        height: 25%;
+    }
+    .carte-activites.double img{
+        height: 80%;
+    }
+    .carte-activites.grid-2.double img{
+        height: 80%;
+    }
+    footer{
+
+        height: auto;
+        width: 100%;
+        background-color:#F2F2F2 ;
+        display: flex;
+        flex-direction: column;
+    }
+    footer div{
+        padding: 20px 0 0 20px;
+    }
+    footer h5 p{
+        padding-bottom: 10px;
+    }
+    footer p:hover{
+        cursor: pointer;
+        border-bottom: none;
+    }
+    
+}

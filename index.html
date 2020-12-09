@@ -7,16 +7,34 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,800;1,500&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/7cdae98395.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 1024px)" href="../css/style-tablette.css">
+    <link rel="stylesheet" media="screen and (min-width: 320px) and (max-width: 424px)" href="../css/style-mobile.css">
+    <link rel="stylesheet" media="screen and (min-width: 424px) and (max-width: 768px)" href="../css/style-tablette-mobile.css">
+
     <title>Document</title>
 </head>
 <body>
     <!-- partie header qui comporte le menu de navigation , recherche(filtre) -->
     <header>
+        <div class="menu-mobile">
+            <nav>
+                <div class="menu-partie1">
+                    <ul>
+                        <li><img class="" src="/images/logo/Reservia@3x.png" alt=""></li>
+                        <li><a class="" href="#" class="inscription">s'inscrire</a></li>
+                    </ul>
+                </div>
+                <div class="menu-partie2">
+                    <ul>
+                        <li><a class="" href="#hebergements">Hébergements</a></li>
+                        <li><a class="" href="#activites">Activités</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
         <div class="menu">
-
-                <img src="/images/logo/Reservia@3x.png" alt="">
-
+            <img src="/images/logo/Reservia@3x.png" alt="">
             <!-- menu de navigation et partie inscription -->
             <!-- faire un mobile cacher par display none  -->
             <nav>
@@ -137,7 +155,6 @@
             </div>
             <h5 class="afficher-plus">Afficher plus</h5>
         </div>
-
 
         <div class="populaires">
             <div class="titre-bloc">
