@@ -1,36 +1,164 @@
-    /* header .menu-un{
+@media screen and (min-width: 424px) and (max-width: 768px){
+    body{
+        height: 100%;
+    }
+    header .menu-mobile{
         display: none;
     }
-    div.menu-mobile {
+   li{
+    list-style: none;
+    display: flex;
+    margin:0 40px 0 0;
+    }
+    div.logo{
+        width: 30%;
+        margin-left:0px;
+    }
+
+    div.menu nav{
+        /* float: right; */
         width: 100%;
-        background-color: rosybrown;
-        display: grid;
-        grid-template-columns: repeat(2,50%) ;
-        grid-template-rows: repeat(2, 50px) ;
-        grid-row-gap: 1rem;
-        grid-column-gap: 1rem;
-        
+        padding-left: 30%;
+    }
+    .filtre h3{
+        width: 100%;
+    }
+    .filtre{
+        padding-top: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items : flex-start;
+        height:auto;
+        width: 70%;
+        margin: 0;
+        padding: 0px;
+    
+    }
+    .filtre div{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: nowrap;
+        height: 35px;
+        border:#F2F2F2  2px solid ;
+        border-radius: 30px 30px 30px  30px;
+        margin: 10px 0 0 0; 
+        padding: 0; 
+    }
+    #hebergements{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: nowrap;
+    }
+    .hebergements-marseille{
+        width: 100%;
+        padding-bottom: 20px;
+        margin: 0px 0px 0 0px;
 
     }
-    li .grid-menu-un{
-        background-color: red;
+    .carte-herbegment{
+        height:150px ;
+        width: 300px;
+        border: 3px solid white;
+        border-radius: 10px;
+        background-color: white;
+        margin: 10px;
+    }
+    .populaires{
+        height:auto ;
+        width: 100%;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin: 0px 0 0 0px;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+    .titre-bloc{
+        width: 100%;
+        margin-left: 10px;
+    }
+    .carte-populaire{
+        width: 70%;
+    }
+    .image-populaire{
+        width: 50%;
+        height: 150px;
+    }
+    .info-populaire{
+        width: 40%;
+    }
+    #activites{
+        padding-top: 20px;
+        width: auto;
+        height:auto;
+        margin: 0;
+        margin: 0;
+    }
+    .activite-marseille{
+        padding: 10px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr) ;
+        grid-template-rows: repeat(3, 180px) ;
+        grid-row-gap: 2rem;
+        grid-column-gap: 2rem;
+    }
+    .carte-activites{
+        width:auto;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 10px 10px 0  rgba(0, 0, 0, 0.157);
+    }
+    div.grid-1{
         grid-column-start: 1;
         grid-row-start: 1;
-
+        grid-row-end: 2;
     }
-    li .grid-menu-deux{
-        background-color: red;
+    div.grid-2{
+        height: 100%;
+        grid-column-start:2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    div.grid-3{ 
+        height: 100%;
         grid-column-start: 1;
         grid-row-start: 2;
-
+        grid-row-end: 3;
+        margin-top:0 ;
     }
-    .grid-menu-trois{
+    div.grid-4{ 
         grid-column-start: 2;
         grid-row-start: 2;
-
+        grid-row-end: 3;
     }
-    .menu-mobile nav li{
-        list-style: none;
-        width: 100px;
-        margin:0;
+    div.grid-5{
+        height: auto;
+        grid-column-start: 1;
+        grid-row-start: 3;
+        grid-row-end: 4;
     }
+    div.grid-6{
+        height: auto;
+        grid-column-start: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    .carte-activites img{
+        height: 80%;
+    }
+    .carte-activites h5{
+        height: 25%;
+    }
+    .carte-activites.double img{
+        height: 80%;
+    }
+    .carte-activites.grid-2.double img{
+        height: 80%;
+    }
+    footer div{
+        padding:20px 20px 20px 20px;
+    }
+}

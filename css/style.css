@@ -4,7 +4,7 @@ html{
     margin: 0 ;
 }
 body{
-    /* height: auto; */
+
     font-family:'Raleway', sans-serif;
 
 }
@@ -146,10 +146,6 @@ header a:hover{
     color: #0065FC ;
     text-align: center;
 }
-.info {
-    height: 100;
-}
-
 /* -----------------------------------------SECTION HEBERGEMENT------------------------------------ */
 /* le conteneur  */
 #hebergements{
@@ -279,7 +275,6 @@ img{
 .carte-activites.grid-2.double img{
     height: 85%;
 }
-
 div.grid-1{
     grid-column-start: 1;
     grid-row-start: 1;
@@ -314,7 +309,6 @@ div.grid-6{
     grid-row-start: 4;
     grid-row-end: 5;
 }
-
 /* ------------------------------------FOOTER---------------------------------------- */
 footer{
     height: auto;
@@ -331,7 +325,3 @@ footer p:hover{
     cursor: pointer;
     border-bottom: 1px black solid;
 }
-
-
-    
-
