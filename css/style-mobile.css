@@ -35,7 +35,7 @@
     }
     .menu-partie1 li a{
         color:#0065FC;
-        color: #4b0082;
+        
     }.menu-partie1 li:nth-child(1){
         width: 100%;
         height: auto;
@@ -299,3 +299,4 @@
     }
     
 }
+/*  plus desspase pour le texte partie herbergment */
