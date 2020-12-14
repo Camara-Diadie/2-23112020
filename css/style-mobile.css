@@ -170,7 +170,7 @@
         margin: 0px 0px 0 0px;
     }
     .carte-herbegment{
-        height:150px ;
+        height:190px ;
         width: 90%;
         border: 3px solid white;
         border-radius: 10px;
@@ -280,7 +280,6 @@
         height: 80%;
     }
     footer{
-
         height: auto;
         width: 100%;
         background-color:#F2F2F2 ;
