@@ -319,11 +319,11 @@ header a:hover{
 }
 .img-garde{
 
-    background-image: url('../images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg');
+    background-image: url(../images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg);
 }
 .img-longchamp{
 
-    background-image: url('../images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg');
+    background-image: url(/images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
 }
 .img-activite{
     border-radius: 10px 10px 0 0;
