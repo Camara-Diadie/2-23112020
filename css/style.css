@@ -303,27 +303,27 @@ header a:hover{
     box-shadow: 0 10px 10px 0  rgba(0, 0, 0, 0.157);
 }
 .img-vieux-port{
-    background-image: url('/images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg');
+    background-image: url('../images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg');
 }
 
 .img-pomegase{
-    background-image: url('images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg');
+    background-image: url('../images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg');
 }
 .img-frioul{
 
-    background-image: url('images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg');
+    background-image: url('../images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg');
 }
 .img-calanques{
 
-    background-image: url('images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg');
+    background-image: url('../images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg');
 }
 .img-garde{
 
-    background-image: url('images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg');
+    background-image: url('../images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg');
 }
 .img-longchamp{
 
-    background-image: url('images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg');
+    background-image: url('../images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg');
 }
 .img-activite{
     border-radius: 10px 10px 0 0;
