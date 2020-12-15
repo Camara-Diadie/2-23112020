@@ -331,16 +331,21 @@ header a:hover{
     background-position: center;
     height: 90%;
 }
-.grid-2.double .img-activite{
+.carte-activites .simple {
+    height: 95%;
+}
+.carte-activites .double h5{
+    height: 15%;
+}
+
+.carte-activites.double .img{
     height: 85%;
 }
-
-.double .img-activite{
-    height: 80%;
+.carte-activites.grid-2.double .img{
+    height: 90%;
 }
-
 .carte-activites h5{
-    height: 10%;
+    height: 15%;
 }
 
 div.grid-1{

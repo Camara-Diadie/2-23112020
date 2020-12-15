@@ -152,12 +152,7 @@
     .carte-activites h5{
         height: 25%;
     }
-    .carte-activites.double img{
-        height: 80%;
-    }
-    .carte-activites.grid-2.double img{
-        height: 80%;
-    }
+
     footer div{
         padding:20px 20px 20px 20px;
     }

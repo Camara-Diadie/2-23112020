@@ -58,7 +58,7 @@
     .carte-populaire{
         width: 70%;
     }
-    .image-populaire{
+    #image-populaire{
         width: 50%;
         height: 150px;
     }
@@ -76,7 +76,7 @@
         padding: 10px;
         display: grid;
         grid-template-columns: 30% 30% 30% ;
-        grid-template-rows: repeat(7, 1fr) ;
+        grid-template-rows: repeat(7, 50px) ;
         grid-row-gap: 2rem;
         grid-column-gap: 2rem;
     }
@@ -121,14 +121,18 @@
         grid-row-start: 4;
         grid-row-end: 7;
     }
-    .carte-activites img{
-        height: 90%;
+    .carte-activites {
+        height: 100%;
     }
-    .carte-activites.double img{
-        height: 90%;
+    .carte-activites .simple {
+        height: 85%;
     }
-    .carte-activites.grid-2.double img{
-        height: 90%;
+
+    .carte-activites.double .img{
+        height: 85%;
+    }
+    .carte-activites h5{
+        height: 15%;
     }
     footer div{
         padding:20px 50px 20px 20px;
