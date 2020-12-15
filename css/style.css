@@ -21,7 +21,7 @@ div.menu{
     display: flex;
     width: 100%;
 }
-div.menu img{
+div.menu .logo{
     float: left;
     width: 40%;
     margin-left:10px;
@@ -154,6 +154,34 @@ header a:hover{
     display: flex;
     flex-wrap: nowrap;
 }
+
+.img-cannebiere{
+    background-image: url('/images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg');
+}
+.img-port{
+    background-image: url('/images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg');
+}
+.img-mouettes{
+
+    background-image: url('/images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg');
+}
+.img-mer{
+    background-image: url('/images/hebergements//3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg');
+}
+.img-panier{
+    background-image: url('/images/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg');
+
+}
+.img-amina{
+    background-image: url('/images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg');
+}
+.img-hebergement{
+    background-size: cover;
+    background-position: center;
+    height: 60%;
+    background-repeat: no-repeat;
+    border-radius: 10px 10px 0 0 ;
+}
 /* element */
 .hebergements-marseille{
     background-color: #F2F2F2;
@@ -191,11 +219,6 @@ header a:hover{
     padding-bottom: 10px;
 
 }
-img{
-    width: 100%;
-    height: 60%;
-    border-radius: 10px 10px 0 0;
-}
 .afficher-plus{
     margin:0 30px 0 30px;
     width: 100%;
@@ -219,7 +242,23 @@ img{
     background-color: white;
     margin-bottom:20px;
 }
- .image-populaire{
+.img-matin{
+    background-image: url('/images/hebergements/2_large/marcus-loke-WQJvWU_HZFo-unsplash.jpg');
+}
+.img-coeur{
+    background-image: url('/images/hebergements/2_large/fred-kleber-gTbaxaVLvsg-unsplash.jpg');
+}
+.img-blanc{
+    background-image: url('/images/hebergements/2_large/reisetopia-B8WIgxA_PFU-unsplash.jpg');
+}
+.img-populaire{
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    background-repeat: no-repeat;
+    border-radius: 10px  0 0 10px ;
+}
+ #image-populaire{
     float: left;
     width: 40%;
     height: 100%;
@@ -230,11 +269,7 @@ img{
     width: 50%;
     height: 100%;
 }
-.carte-populaire img{
-    width: 100%;
-    height: 100%;
-    border-radius:   10px 0 0 10px;
-}
+
 .etoile-populaire{
     align-content: flex-end;
     padding-top: 40px;
@@ -267,18 +302,47 @@ img{
     border-radius: 10px;
     box-shadow: 0 10px 10px 0  rgba(0, 0, 0, 0.157);
 }
-.carte-activites img{
+.img-vieux-port{
+    background-image: url('/images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg');
+}
+
+.img-pomegase{
+    background-image: url('/images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg');
+}
+.img-frioul{
+
+    background-image: url('/images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg');
+}
+.img-calanques{
+
+    background-image: url('/images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg');
+}
+.img-garde{
+
+    background-image: url('/images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg');
+}
+.img-longchamp{
+
+    background-image: url('/images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg');
+}
+.img-activite{
+    border-radius: 10px 10px 0 0;
+    background-size: cover;
+    background-position: center;
     height: 90%;
 }
+.grid-2.double .img-activite{
+    height: 85%;
+}
+
+.double .img-activite{
+    height: 80%;
+}
+
 .carte-activites h5{
     height: 10%;
 }
-.carte-activites.double img{
-    height: 80%;
-}
-.carte-activites.grid-2.double img{
-    height: 85%;
-}
+
 div.grid-1{
     grid-column-start: 1;
     grid-row-start: 1;
